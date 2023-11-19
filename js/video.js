@@ -13,7 +13,7 @@ play_btn = document.querySelector("#play");
 play_btn.addEventListener("click", function () {
 	console.log("Play Video");
 	video.play()
-	document.querySelector("#volume").innerHTML = (volume_slider.value)
+	document.querySelector("#volume").innerHTML = (volume_slider.value + "%")
 });
 
 // Pauses the video
