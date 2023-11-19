@@ -76,7 +76,7 @@ volume_slider = document.querySelector("#slider")
 volume_slider.addEventListener("click", function(){
 	video.volume = (volume_slider.value * .01)
 	console.log(video.volume)
-	document.querySelector("#volume").innerHTML = (volume_slider.value)
+	document.querySelector("#volume").innerHTML = (volume_slider.value,"%")
 
 })
 
